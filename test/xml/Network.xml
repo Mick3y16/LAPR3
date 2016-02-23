@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Network id="TestSet03" description="5 node test set">
+	<node_list>
+		<node id="n0"/>
+    	<node id="n1"/>
+    	<node id="n2"/>
+    	<node id="n3"/>
+    	<node id="n4"/>
+    </node_list>
+    <section_list>
+    	<road_section begin="n0" end="n2">
+    		<road>E01</road>
+    		<typology>regular road</typology>
+    		<direction>bidirectional</direction> 
+    		<toll>0</toll>
+    		<wind_direction>20</wind_direction>
+    		<wind_speed>5 m/s</wind_speed>
+    		<segment_list>
+    			<segment id="01">
+    				<height>100</height>
+    				<slope>3.0%</slope>
+    				<length>3.2 Km</length>
+    				<max_velocity>90 Km/h</max_velocity>
+    				<min_velocity>0 Km/h</min_velocity>
+    				<number_vehicles>250</number_vehicles>
+    			</segment>
+    			<segment id="02">
+    				<height>196</height>
+    				<slope>-1.5%</slope>
+    				<length>6.4 Km</length>
+    				<max_velocity>90 Km/h</max_velocity>
+    				<min_velocity>0 Km/h</min_velocity>
+    				<number_vehicles>200</number_vehicles>
+    			</segment>
+    		</segment_list>
+    	</road_section>
+    	<road_section begin="n2" end="n3">
+    		<road>E01</road>
+    		<typology>regular road</typology>
+    		<direction>bidirectional</direction> 
+    		<toll>0</toll>
+    		<wind_direction>-5</wind_direction>
+    		<wind_speed>3 m/s</wind_speed>
+    		<segment_list>
+    			<segment id="01">
+    				<height>100</height>
+    				<slope>1.5%</slope>
+    				<length>10 Km</length>
+    				<max_velocity>90 Km/h</max_velocity>
+    				<min_velocity>0 Km/h</min_velocity>
+    				<number_vehicles>350</number_vehicles>
+    			</segment>
+    			<segment id="02">
+    				<height>150</height>
+    				<slope>1.0%</slope>
+    				<length>5 Km</length>
+    				<max_velocity>90 Km/h</max_velocity>
+    				<min_velocity>0 Km/h</min_velocity>
+    				<number_vehicles>200</number_vehicles>
+    			</segment>
+    		</segment_list>
+    	</road_section>
+    	<road_section begin="n3" end="n4">
+    		<road>E01</road>
+    		<typology>regular road</typology>
+    		<direction>bidirectional</direction> 
+    		<toll>0</toll>
+    		<wind_direction>-5</wind_direction>
+    		<wind_speed>5 m/s</wind_speed>
+    		<segment_list>
+    			<segment id="01">
+    				<height>200</height>
+    				<slope>2.0%</slope>
+    				<length>10 Km</length>
+    				<max_velocity>90 Km/h</max_velocity>
+    				<min_velocity>0 Km/h</min_velocity>
+    				<number_vehicles>300</number_vehicles>
+    			</segment>
+    			<segment id="02">
+    				<height>400</height>
+    				<slope>-2.5%</slope>
+    				<length>10 Km</length>
+    				<max_velocity>90 Km/h</max_velocity>
+    				<min_velocity>0 Km/h</min_velocity>
+    				<number_vehicles>250</number_vehicles>
+    			</segment>
+    		</segment_list>
+    	</road_section>
+    	<road_section begin="n0" end="n1">
+    		<road>"A01"</road>
+    		<typology>highway</typology>
+    		<direction>bidirectional</direction> 
+    		<toll>12</toll>
+    		<wind_direction>-5</wind_direction>
+    		<wind_speed>3 m/s</wind_speed>
+    		<segment_list>
+    			<segment id="01">
+    				<height>100</height>
+    				<slope>0%</slope>
+    				<length>25 Km</length>
+    				<max_velocity>120 Km/h</max_velocity>
+    				<min_velocity>50 Km/h</min_velocity>
+    				<number_vehicles>2000</number_vehicles>
+    			</segment>
+    		</segment_list>
+    	</road_section>
+    	<road_section begin="n1" end="n3">
+    		<road>"A01"</road>
+    		<typology>highway</typology>
+    		<direction>bidirectional</direction> 
+    		<toll>4</toll>
+    		<wind_direction>-5</wind_direction>
+    		<wind_speed>3 m/s</wind_speed>
+    		<segment_list>
+    			<segment id="01">
+    				<height>100</height>
+    				<slope>0.5%</slope>
+    				<length>20 Km</length>
+    				<max_velocity>120 Km/h</max_velocity>
+    				<min_velocity>50 Km/h</min_velocity>
+    				<number_vehicles>1500</number_vehicles>
+    			</segment>
+    		</segment_list>
+    	</road_section>
+    	<road_section begin="n2" end="n4">
+    		<road>E06</road>
+    		<typology>regular road</typology>
+    		<direction>bidirectional</direction> 
+    		<toll>0</toll>
+    		<wind_direction>-15</wind_direction>
+    		<wind_speed>10 m/s</wind_speed>
+    		<segment_list>
+    			<segment id="01">
+    				<height>100</height>
+    				<slope>2.5%</slope>
+    				<length>10 Km</length>
+    				<max_velocity>90 Km/h</max_velocity>
+    				<min_velocity>0 Km/h</min_velocity>
+    				<number_vehicles>150</number_vehicles>
+    			</segment>
+    			<segment id="02">
+    				<height>350</height>
+    				<slope>-4.0%</slope>
+    				<length>5 Km</length>
+    				<max_velocity>90 Km/h</max_velocity>
+    				<min_velocity>0 Km/h</min_velocity>
+    				<number_vehicles>100</number_vehicles>
+    			</segment>
+    		</segment_list>
+    	</road_section>
+    </section_list>
+</Network>
+

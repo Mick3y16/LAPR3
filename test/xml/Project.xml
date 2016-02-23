@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Network id="TestSet03" description="5 node test set">
+	<node_list>
+		<node id="n0"/>
+    	<node id="n1"/>
+    	<node id="n2"/>
+    	<node id="n3"/>
+    	<node id="n4"/>
+    </node_list>
+    <section_list>
+    	<road_section begin="n0" end="n2">
+    		<road>E01</road>
+    		<typology>regular road</typology>
+    		<direction>bidirectional</direction> 
+    		<toll>0</toll>
+    		<wind_direction>20</wind_direction>
+    		<wind_speed>5 m/s</wind_speed>
+    		<segment_list>
+    			<segment id="01">
+    				<height>100</height>
+    				<slope>3.0%</slope>
+    				<length>3.2 Km</length>
+    				<max_velocity>90 Km/h</max_velocity>
+    				<min_velocity>0 Km/h</min_velocity>
+    				<number_vehicles>250</number_vehicles>
+    			</segment>
+    			<segment id="02">
+    				<height>196</height>
+    				<slope>-1.5%</slope>
+    				<length>6.4 Km</length>
+    				<max_velocity>90 Km/h</max_velocity>
+    				<min_velocity>0 Km/h</min_velocity>
+    				<number_vehicles>200</number_vehicles>
+    			</segment>
+    		</segment_list>
+    	</road_section>
+    	<road_section begin="n2" end="n3">
+    		<road>E01</road>
+    		<typology>regular road</typology>
+    		<direction>bidirectional</direction> 
+    		<toll>0</toll>
+    		<wind_direction>-5</wind_direction>
+    		<wind_speed>3 m/s</wind_speed>
+    		<segment_list>
+    			<segment id="01">
+    				<height>100</height>
+    				<slope>1.5%</slope>
+    				<length>10 Km</length>
+    				<max_velocity>90 Km/h</max_velocity>
+    				<min_velocity>0 Km/h</min_velocity>
+    				<number_vehicles>350</number_vehicles>
+    			</segment>
+    			<segment id="02">
+    				<height>150</height>
+    				<slope>1.0%</slope>
+    				<length>5 Km</length>
+    				<max_velocity>90 Km/h</max_velocity>
+    				<min_velocity>0 Km/h</min_velocity>
+    				<number_vehicles>200</number_vehicles>
+    			</segment>
+    		</segment_list>
+    	</road_section>
+    	<road_section begin="n3" end="n4">
+    		<road>E01</road>
+    		<typology>regular road</typology>
+    		<direction>bidirectional</direction> 
+    		<toll>0</toll>
+    		<wind_direction>-5</wind_direction>
+    		<wind_speed>5 m/s</wind_speed>
+    		<segment_list>
+    			<segment id="01">
+    				<height>200</height>
+    				<slope>2.0%</slope>
+    				<length>10 Km</length>
+    				<max_velocity>90 Km/h</max_velocity>
+    				<min_velocity>0 Km/h</min_velocity>
+    				<number_vehicles>300</number_vehicles>
+    			</segment>
+    			<segment id="02">
+    				<height>400</height>
+    				<slope>-2.5%</slope>
+    				<length>10 Km</length>
+    				<max_velocity>90 Km/h</max_velocity>
+    				<min_velocity>0 Km/h</min_velocity>
+    				<number_vehicles>250</number_vehicles>
+    			</segment>
+    		</segment_list>
+    	</road_section>
+    	<road_section begin="n0" end="n1">
+    		<road>"A01"</road>
+    		<typology>highway</typology>
+    		<direction>bidirectional</direction> 
+    		<toll>12</toll>
+    		<wind_direction>-5</wind_direction>
+    		<wind_speed>3 m/s</wind_speed>
+    		<segment_list>
+    			<segment id="01">
+    				<height>100</height>
+    				<slope>0%</slope>
+    				<length>25 Km</length>
+    				<max_velocity>120 Km/h</max_velocity>
+    				<min_velocity>50 Km/h</min_velocity>
+    				<number_vehicles>2000</number_vehicles>
+    			</segment>
+    		</segment_list>
+    	</road_section>
+    	<road_section begin="n1" end="n3">
+    		<road>"A01"</road>
+    		<typology>highway</typology>
+    		<direction>bidirectional</direction> 
+    		<toll>4</toll>
+    		<wind_direction>-5</wind_direction>
+    		<wind_speed>3 m/s</wind_speed>
+    		<segment_list>
+    			<segment id="01">
+    				<height>100</height>
+    				<slope>0.5%</slope>
+    				<length>20 Km</length>
+    				<max_velocity>120 Km/h</max_velocity>
+    				<min_velocity>50 Km/h</min_velocity>
+    				<number_vehicles>1500</number_vehicles>
+    			</segment>
+    		</segment_list>
+    	</road_section>
+    	<road_section begin="n2" end="n4">
+    		<road>E06</road>
+    		<typology>regular road</typology>
+    		<direction>bidirectional</direction> 
+    		<toll>0</toll>
+    		<wind_direction>-15</wind_direction>
+    		<wind_speed>10 m/s</wind_speed>
+    		<segment_list>
+    			<segment id="01">
+    				<height>100</height>
+    				<slope>2.5%</slope>
+    				<length>10 Km</length>
+    				<max_velocity>90 Km/h</max_velocity>
+    				<min_velocity>0 Km/h</min_velocity>
+    				<number_vehicles>150</number_vehicles>
+    			</segment>
+    			<segment id="02">
+    				<height>350</height>
+    				<slope>-4.0%</slope>
+    				<length>5 Km</length>
+    				<max_velocity>90 Km/h</max_velocity>
+    				<min_velocity>0 Km/h</min_velocity>
+    				<number_vehicles>100</number_vehicles>
+    			</segment>
+    		</segment_list>
+    	</road_section>
+    </section_list>
+	<vehicle_list>
+		<vehicle name="Dummy01" description= "Dummy teste vehicle 01">
+			<type>car</type>
+			<motorization>combustion</motorization>
+			<fuel>gasoline</fuel>
+			<mass>2400 Kg</mass>
+			<load>420 kg</load>
+			<drag>0.38</drag>
+			<frontal_area>2.4</frontal_area>
+			<rrc>0.01</rrc>
+			<wheel_size>0.7</wheel_size>
+			<velocity_limit_list>
+				<velocity_limit>
+					<segment_type>Highway</segment_type>
+					<limit>100</limit>
+				</velocity_limit>
+			</velocity_limit_list>
+			<energy>  			
+				<min_rpm>1000</min_rpm>
+				<max_rpm>5500</max_rpm>
+				<final_drive_ratio>2.6</final_drive_ratio>
+				<gear_list>
+					<gear id="01">
+						<ratio>3.5</ratio>
+					</gear>
+					<gear id="02">
+						<ratio>2.5</ratio>
+					</gear>
+					<gear id="03">
+						<ratio>1.9</ratio>
+					</gear>
+					<gear id="04">
+						<ratio>1.2</ratio>
+					</gear>
+					<gear id="05">
+						<ratio>0.8</ratio>
+					</gear>
+				</gear_list>
+				<throttle_list>
+					<throttle id="25">
+						<regime>
+							<torque>105</torque>
+							<rpm_low>1000</rpm_low>
+							<rpm_high>2499</rpm_high>
+							<SFC>8.2</SFC>
+						</regime>
+						<regime>
+							<torque>115</torque>
+							<rpm_low>2500</rpm_low>
+							<rpm_high>3999</rpm_high>
+							<SFC>6.2</SFC>
+						</regime>
+						<regime>
+							<torque>100</torque>
+							<rpm_low>4000</rpm_low>
+							<rpm_high>5500</rpm_high>
+							<SFC>10.2</SFC>
+						</regime>
+					</throttle>
+					<throttle id="50">
+						<regime>
+							<torque>135</torque>
+							<rpm_low>1000</rpm_low>
+							<rpm_high>2499</rpm_high>
+							<SFC>5.2</SFC>
+						</regime>
+						<regime>
+							<torque>150</torque>
+							<rpm_low>2500</rpm_low>
+							<rpm_high>3999</rpm_high>
+							<SFC>3.2</SFC>
+						</regime>
+						<regime>
+							<torque>130</torque>
+							<rpm_low>4000</rpm_low>
+							<rpm_high>5500</rpm_high>
+							<SFC>8.2</SFC>
+						</regime>
+					</throttle>
+					<throttle id="100">
+						<regime>
+							<torque>220</torque>
+							<rpm_low>1000</rpm_low>
+							<rpm_high>2499</rpm_high>
+							<SFC>2.2</SFC>
+						</regime>
+						<regime>
+							<torque>250</torque>
+							<rpm_low>2500</rpm_low>
+							<rpm_high>3999</rpm_high>
+							<SFC>1.2</SFC>
+						</regime>
+						<regime>
+							<torque>190</torque>
+							<rpm_low>4000</rpm_low>
+							<rpm_high>5500</rpm_high>
+							<SFC>4.2</SFC>
+						</regime>
+					</throttle>
+				</throttle_list>
+			</energy>
+		</vehicle>
+		<vehicle name="Dummy02" description= "Dummy teste vehicle 02">
+			<type>car</type>
+			<motorization>combustion</motorization>
+			<fuel>gasoline</fuel>
+			<mass>1400 Kg</mass>
+			<load>320 kg</load>
+			<drag>0.30</drag>
+			<frontal_area>1.8</frontal_area>
+			<rrc>0.01</rrc>
+			<wheel_size>0.5</wheel_size>
+			<energy>  			
+				<min_rpm>1000</min_rpm>
+				<max_rpm>5500</max_rpm>
+				<final_drive_ratio>2.6</final_drive_ratio>
+				<gear_list>
+					<gear id="01">
+						<ratio>3.5</ratio>
+					</gear>
+					<gear id="02">
+						<ratio>2.7</ratio>
+					</gear>
+					<gear id="03">
+						<ratio>1.9</ratio>
+					</gear>
+					<gear id="04">
+						<ratio>1.3</ratio>
+					</gear>
+					<gear id="05">
+						<ratio>0.7</ratio>
+					</gear>
+				</gear_list>
+				<throttle_list>
+					<throttle id="25">
+						<regime>
+							<torque>85</torque>
+							<rpm_low>1000</rpm_low>
+							<rpm_high>2499</rpm_high>
+							<SFC>8.2</SFC>
+						</regime>
+						<regime>
+							<torque>95</torque>
+							<rpm_low>2500</rpm_low>
+							<rpm_high>3999</rpm_high>
+							<SFC>6.2</SFC>
+						</regime>
+						<regime>
+							<torque>80</torque>
+							<rpm_low>4000</rpm_low>
+							<rpm_high>5500</rpm_high>
+							<SFC>10.2</SFC>
+						</regime>
+					</throttle>
+					<throttle id="50">
+						<regime>
+							<torque>135</torque>
+							<rpm_low>1000</rpm_low>
+							<rpm_high>2499</rpm_high>
+							<SFC>5.2</SFC>
+						</regime>
+						<regime>
+							<torque>150</torque>
+							<rpm_low>2500</rpm_low>
+							<rpm_high>3999</rpm_high>
+							<SFC>3.2</SFC>
+						</regime>
+						<regime>
+							<torque>140</torque>
+							<rpm_low>4000</rpm_low>
+							<rpm_high>5500</rpm_high>
+							<SFC>8.2</SFC>
+						</regime>
+					</throttle>
+					<throttle id="100">
+						<regime>
+							<torque>180</torque>
+							<rpm_low>1000</rpm_low>
+							<rpm_high>2499</rpm_high>
+							<SFC>2.2</SFC>
+						</regime>
+						<regime>
+							<torque>200</torque>
+							<rpm_low>2500</rpm_low>
+							<rpm_high>3999</rpm_high>
+							<SFC>1.2</SFC>
+						</regime>
+						<regime>
+							<torque>180</torque>
+							<rpm_low>4000</rpm_low>
+							<rpm_high>5500</rpm_high>
+							<SFC>4.2</SFC>
+						</regime>
+					</throttle>
+				</throttle_list>
+			</energy>
+		</vehicle>
+		<vehicle name="ElectricDummy" description= "Electric Dummy teste vehicle">
+			<type>car</type>
+			<motorization>electric</motorization>
+			<fuel>electric</fuel>
+			<mass>1500 Kg</mass>
+			<load>320 kg</load>
+			<drag>0.32</drag>
+			<frontal_area>1.8</frontal_area>
+			<rrc>0.01</rrc>
+			<wheel_size>0.5</wheel_size>
+			<energy>  			
+				<min_rpm>0</min_rpm>
+				<max_rpm>10500</max_rpm>
+				<final_drive_ratio>2.6</final_drive_ratio>
+				<energy_regeneration_ratio>0.8</energy_regeneration_ratio>
+				<gear_list>
+					<gear id="01">
+						<ratio>1</ratio>
+					</gear>
+				</gear_list>
+				<throttle_list>
+					<throttle id="25">
+						<regime>
+							<torque>85</torque>
+							<rpm_low>0</rpm_low>
+							<rpm_high>3499</rpm_high>
+						</regime>
+						<regime>
+							<torque>80</torque>
+							<rpm_low>3500</rpm_low>
+							<rpm_high>4499</rpm_high>
+						</regime>
+						<regime>
+							<torque>75</torque>
+							<rpm_low>4500</rpm_low>
+							<rpm_high>5499</rpm_high>
+						</regime>
+						<regime>
+							<torque>70</torque>
+							<rpm_low>5500</rpm_low>
+							<rpm_high>6499</rpm_high>
+						</regime>
+						<regime>
+							<torque>65</torque>
+							<rpm_low>6500</rpm_low>
+							<rpm_high>7499</rpm_high>
+						</regime>
+						<regime>
+							<torque>55</torque>
+							<rpm_low>7500</rpm_low>
+							<rpm_high>8499</rpm_high>
+						</regime>
+						<regime>
+							<torque>45</torque>
+							<rpm_low>8500</rpm_low>
+							<rpm_high>9499</rpm_high>
+						</regime>
+						<regime>
+							<torque>30</torque>
+							<rpm_low>9500</rpm_low>
+							<rpm_high>10500</rpm_high>
+						</regime>
+					</throttle>
+					<throttle id="50">
+						<regime>
+							<torque>150</torque>
+							<rpm_low>0</rpm_low>
+							<rpm_high>3499</rpm_high>
+						</regime>
+						<regime>
+							<torque>145</torque>
+							<rpm_low>3500</rpm_low>
+							<rpm_high>4499</rpm_high>
+						</regime>
+						<regime>
+							<torque>140</torque>
+							<rpm_low>4500</rpm_low>
+							<rpm_high>5499</rpm_high>
+						</regime>
+						<regime>
+							<torque>130</torque>
+							<rpm_low>5500</rpm_low>
+							<rpm_high>6499</rpm_high>
+						</regime>
+						<regime>
+							<torque>120</torque>
+							<rpm_low>6500</rpm_low>
+							<rpm_high>7499</rpm_high>
+						</regime>
+						<regime>
+							<torque>105</torque>
+							<rpm_low>7500</rpm_low>
+							<rpm_high>8499</rpm_high>
+						</regime>
+						<regime>
+							<torque>80</torque>
+							<rpm_low>8500</rpm_low>
+							<rpm_high>9499</rpm_high>
+						</regime>
+						<regime>
+							<torque>60</torque>
+							<rpm_low>9500</rpm_low>
+							<rpm_high>10500</rpm_high>
+						</regime>
+					</throttle>
+					<throttle id="100">
+						<regime>
+							<torque>250</torque>
+							<rpm_low>0</rpm_low>
+							<rpm_high>3499</rpm_high>
+						</regime>
+						<regime>
+							<torque>240</torque>
+							<rpm_low>3500</rpm_low>
+							<rpm_high>4499</rpm_high>
+						</regime>
+						<regime>
+							<torque>230</torque>
+							<rpm_low>4500</rpm_low>
+							<rpm_high>5499</rpm_high>
+						</regime>
+						<regime>
+							<torque>215</torque>
+							<rpm_low>5500</rpm_low>
+							<rpm_high>6499</rpm_high>
+						</regime>
+						<regime>
+							<torque>180</torque>
+							<rpm_low>6500</rpm_low>
+							<rpm_high>7499</rpm_high>
+						</regime>
+						<regime>
+							<torque>140</torque>
+							<rpm_low>7500</rpm_low>
+							<rpm_high>8499</rpm_high>
+						</regime>
+						<regime>
+							<torque>110</torque>
+							<rpm_low>8500</rpm_low>
+							<rpm_high>9499</rpm_high>
+						</regime>
+						<regime>
+							<torque>80</torque>
+							<rpm_low>9500</rpm_low>
+							<rpm_high>10500</rpm_high>
+						</regime>
+					</throttle>
+				</throttle_list>
+			</energy>
+		</vehicle>
+	</vehicle_list>
+</Network>
+

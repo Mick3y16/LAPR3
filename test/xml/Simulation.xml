@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Simulation id="TestSet03" description="simulation test set with electric vehicle">
+    <traffic_list>
+    	<traffic_pattern begin="n0" end="n4">
+			<vehicle>Dummy01</vehicle>
+			<arrival_rate>10 1/m</arrival_rate>
+    	</traffic_pattern>
+    	<traffic_pattern begin="n0" end="n4">
+			<vehicle>ElectricDummy</vehicle>
+			<arrival_rate>15 1/m</arrival_rate>
+    	</traffic_pattern>
+    	<traffic_pattern begin="n0" end="n4">
+			<vehicle>Dummy02</vehicle>
+			<arrival_rate>30 1/m</arrival_rate>
+    	</traffic_pattern>
+    	<traffic_pattern begin="n1" end="n4">
+			<vehicle>Dummy01</vehicle>
+			<arrival_rate>10 1/m</arrival_rate>
+    	</traffic_pattern>
+    	<traffic_pattern begin="n1" end="n4">
+			<vehicle>Dummy02</vehicle>
+			<arrival_rate>30 1/m</arrival_rate>
+    	</traffic_pattern>
+    	<traffic_pattern begin="n3" end="n1">
+			<vehicle>Dummy01</vehicle>
+			<arrival_rate>5 1/m</arrival_rate>
+    	</traffic_pattern>
+    	<traffic_pattern begin="n3" end="n1">
+			<vehicle>ElectricDummy</vehicle>
+			<arrival_rate>25 1/m</arrival_rate>
+    	</traffic_pattern>
+    	<traffic_pattern begin="n4" end="n1">
+			<vehicle>ElectricDummy</vehicle>
+			<arrival_rate>20 1/m</arrival_rate>
+    	</traffic_pattern>
+    </traffic_list>
+</Simulation>
+
