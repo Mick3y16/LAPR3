@@ -1,0 +1,8 @@
+==Sequence Diagram==
+\\
+{{https://bitbucket.org/repo/pqBqye/images/2952644201-UC9%20SD.png|UC9 SD.png}}
+----
+==Class Diagram==
+\\
+{{https://bitbucket.org/repo/pqBqye/images/4028401658-UC9%20CD.png|UC9 CD.png}}
+----

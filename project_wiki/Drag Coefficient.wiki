@@ -1,0 +1,84 @@
+= Drag =
+
+In aerodynamics, drag is a force that acts parallel and in the same direction as the airflow. Its impact is very important in the manufactoring of vehicles. 
+
+The drag force increases with the squared velocity of the vehicle - a vital detail when vehicles approach high speeds.
+
+The lower the drag coefficient, the higher the efficiency between the velocity of the vehicle and the fuel consumption.
+
+To reduce the drag of a vehicle, you can:
+* Delete:
+** Roof rack
+** Mud flaps
+** Rear spoiler
+** Side mirrors
+** Radio antenna
+** Windshield wipers
+
+* Fabricate:
+** Wheel covers
+** Partial grille block
+** Under tray
+** Fender skirts
+** Modified front bumper
+** Bottails and Kammbacks
+
+
+The drag coefficient usually ranges between 0,30 and 0,35 in modern vehicles. In SUVs, it's between 0,35 and 0,45.
+
+The most common way of measuring drag is through the drag area.
+
+The drag area can be defined as the product between the drag coefficient and the area.
+
+It is generally represented as:
+
+{{https://bitbucket.org/repo/pqBqye/images/1196638293-F2.png|F2.png}}
+
+Where:
+* Cd - Drag Coefficient;
+* A - Area.
+
+The necessary force to overcome the drag is described by the following equation:
+
+{{https://bitbucket.org/repo/pqBqye/images/3036416579-F1.png|F1.png}}
+
+Where:
+* Fdrag - The necessary force to overcome drag;
+* Cd - DragCoefficient;
+* ρ - The fluid's density (1.2 kg/m^3 for air at NTP*);
+* A - Area;
+* v - Speed.
+
+*Note: NTP stands for Normal Temperature and Pressure
+
+
+The drag area is the fundamental value that determines the necessary power required for a given cruise speed and it is also a critical parameter to determine the fuel consumption at a steady speed.
+
+From the information described above, it is possible to estimate the new maximum speed of a vehicle:
+
+{{https://bitbucket.org/repo/pqBqye/images/2986538344-F4.png|F4.png}}
+
+* estimatedtopspeed - The estimated top speed of the vehicle;
+* originaltopspeed - The original top speed of the vehicle;
+* newpower - The new power of the vehicle;
+* originalpower - The original power of the vehicle.
+
+It is also possible to estimate the necessary power for a maximum target speed:
+
+{{https://bitbucket.org/repo/pqBqye/images/2402423566-F5.png|F5.png}}
+
+Where:
+
+* powerrequired - The power required to cruise for the target top speed;
+* targetspeed - The target maximum speed of the vehicle;
+* originalspeed - The original speed of the vehicle;
+* originalpower - The original power of the vehicle.
+
+The drag coefficient can be retrieved by the given drag force formula as:
+
+{{https://bitbucket.org/repo/pqBqye/images/1166588418-F3.png|F3.png}}
+
+==Real-Life Examples ==
+
+* An average full-size passanger car can have a drag area of roughly 0.790 m^2.
+* Reported drag areas range from 0.47m^2 (Honda Insight 1999) to 2.46m^2 (Hummer H2 2003

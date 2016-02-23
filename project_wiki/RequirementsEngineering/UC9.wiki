@@ -1,0 +1,64 @@
+= UC9: Run Simulation =
+
+== Brief Format ==
+
+ The user starts the process of running a simulation. The system requests the simulation run's data. The user provides the requested data and starts the simulation run. The system initializes all the starting conditions. The system injects traffic onto every node that has traffic injection. The vehicles in the simulation attempt to move towards their destination node, if possible. The system repeats the two previous steps until the simulation run has reached the end. The system displays a summary of the results of the simulation . The system requests confirmation to save the run onto the database. The user confirms. The system saves the run to the database and informs the user of the success of the operation.
+
+== SSD ==
+
+{{https://bitbucket.org/repo/pqBqye/images/1855378616-SSD%20UC9.png|SSD UC9.png}}
+
+== Complete Format ==
+
+=== Main actor ===
+* User
+
+=== Stakeholders and their interests ===
+* User: Ability to run a simulation and save the results.
+
+=== Preconditions ===
+* -
+
+=== Postconditions ===
+* The results of the simulation are available to be displayed.
+
+=== Main Success Scenario (or Basic Flow ) ===
+
+# The user starts the process of running a simulation.
+# The system requests the simulation run's name, starting time, ending time, time step and best path method to use.
+# The user provides the requested data and starts the simulation run.
+# The system initializes the simulation run by calculating the trajectories for each vehicle pattern, creating the heap queues for vehicles and segment space tracking queues.
+# The system injects traffic onto every node that has traffic injection.
+# The vehicles in the simulation attempt to move towards their destination node, if possible.
+# Steps 5 and 6 repeat until the simulation run has reached the end.
+# The system displays a summary of the results of the simulation (the inputted data, amount of vehicles that completed the traffic pattern and amount of vehicles that were dropped out).
+# The system requests confirmation to save the run onto the database.
+# The user confirms.
+# The system saves the run to the database and informs the user of the success of the operation.
+
+=== Extensions ( or alternative flows ) ===
+
+* *a. The user cancels the process of running a simulation.
+ # The use case ends.
+
+* 1a. The system detects that the user hasn't opened a simulation yet.
+ # The system informs the user to the fact.
+ # The use case ends.
+
+* 8a. The user cancels the process of saving to the database.
+ # The system informs the user to the fact.
+ # The use case ends.
+
+
+=== Special requirements ===
+* -
+
+=== Technology and Data Variation List ===
+* **H**yper**T**ext **M**arkup **L**anguage (HTML)
+* **C**ascading **S**tyle **S**heets (CSS)
+
+=== Frequency of Occurrence ===
+* -
+
+=== Open questions ===
+* -

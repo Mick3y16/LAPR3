@@ -1,0 +1,53 @@
+= UC6: Create simulation from existing one (Copy) =
+
+== Brief Format ==
+
+The user starts the process of creating a simulation from an existing one. The system displays a list of simulations and prompts the user to select the target simulation to copy and the copied simulation's name and description. The user selects the desired simulation and enters the name and description. The system creates a copy of the simulation and informs the user of the success of the operation.
+
+== SSD ==
+{{https://bitbucket.org/repo/pqBqye/images/4173888519-UC6_SSD.png|UC6_SSD.png}}
+
+== Complete Format ==
+
+== Main actor ==
+* User
+
+== Stakeholders and their interests ==
+* User: Being able to copy a simulation and perform changes on it without changing the original.
+
+== Preconditions ==
+* -
+
+== Postconditions ==
+* The copy of the simulation is available to be used.
+
+== Main Success Scenario (or Basic Flow ) ==
+
+# The user starts the process of creating a simulation from an existing one.
+# The system displays a list of simulations and prompts the user to select the target simulation to copy and the copied simulation's name and description.
+# The user selects the desired simulation and the new name and description.
+# The system creates a copy of the simulation and informs the user of the success of the operation.
+
+== Extensions ( or alternative flows ) == 
+
+* *a. The user cancels the creation of a copy of the simulation.
+** The use case ends.
+* 2a. The system detects that there are no simulations available. 
+** The system warns the user to the fact.
+** The use case ends.
+
+* 4a. The system detects that the inputted name is the same as the original simulation's name
+** The system warns the user to the fact.
+** The system allows the user to change the name of the simulation.
+
+== Special requirements ==
+* -
+
+== Technology and Data Variation List ==
+* -
+
+== Frequency of Occurrence ==
+* -
+
+== Open questions ==
+* -

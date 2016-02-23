@@ -1,0 +1,104 @@
+=Rolling Resistance=
+
+Rolling resistance (also known as rolling friction or rolling drag), is defined as the force resisting the motion when a body (such as a wheel, ball or tire) rolls on a surface.
+
+This resistance is main caused by non-elastic effects, meaning that not all of the energy needed for deformation or movement of the wheel is recovered when the pressure is removed.
+
+There are two ways that this resistance happens:
+
+* Via hysteresis losses.
+
+* Permanent deformation of the object/surface.
+
+
+Hysteresis is a characteristic of a deformable material such that the energy of deformation is greater than the energy of recovery. For example, the rubber compound in a tire exhibits hysteresis, since as the tire rotates under the weight of the vehicles, it experiences repeated cycles of deformation and recovery and it dissipates the hysteresis energy loss as heat. In the case of the rubber, the hysteresis is attributed to the viscoelastic characteristics of the rubber.
+
+Mathematically, hysteris (from the ancient Greek word meaning "deficiency" or "lagging behind") can be defined as the time-based dependence of a system's output on present and past inputs. What this means is that to predict the future outputs of the functions, either its internal state or its history must be known.
+
+{{https://bitbucket.org/repo/pqBqye/images/512759367-gra%CC%81fico.png|gráfico.png}}
+
+//A graphic displaying the stress in a rubber wheel dependant on the strain of the wheel//
+
+There is also energy loss between the friction of the wheels with the ground.
+
+Factors that contribute to the rolling resistance of the wheel:
+
+* Wheel deformation;
+* Contact surface deformation;
+* Undersurface movement.
+
+Additional factors include:
+
+* Wheel's diameter;
+* Speed;
+* Road's load;
+* Adhesiveness to the contact surface;
+* Undersurface slidings.
+
+The rolling resistance force is defined by the following equation:
+
+{{https://bitbucket.org/repo/pqBqye/images/3929492530-Captura%20de%20ecra%CC%83%202015-12-09%252c%20a%CC%80s%2015.24.34.png|Captura de ecrã 2015-12-09%2c às 15.24.34.png}}
+
+Where:
+* F - Rolling resistance force (N);
+* Crr - The dimensionless **rolling resistance coefficient** (or **coefficient of rolling friction (CRF)**);
+* N - Normal force to the surface (N).
+
+
+The normal force of a surface exerted on an object is given by:
+
+{{https://bitbucket.org/repo/pqBqye/images/2723211257-F2.png|F2.png}}
+
+Where:
+* N - Normal force to the surface (N);
+* g - Gravitiy acceleration (m/s^2);
+* m - Mass of the object (kg).
+
+**The normal force is perpendicular to the surface on which the body is on.**
+
+Crr is the force needed to push (or tow) a wheeled vehicle forward (at a constant speed on a level surface (0º)) per unit force of weight. It is assumed that all wheels are the same and bear identical weight.
+
+For example, a Crr of 0,01 means that it would only take 0.01 pounds to tow a vehicle weighing one pound.
+
+As an alternative to using Crr, one can use **b** which is a **different rolling resistance coefficient** with dimension of length. It is defiend by the following formula:
+
+!{{https://bitbucket.org/repo/pqBqye/images/445171739-F4.png|F4.png}}
+
+Where:
+* F - The rolling resistance force (N);
+* r - The Wheel's radius (m);
+* N - Normal force to the surface (N);
+* b - The rolling resistance coefficient with dimension of length.
+
+The above equation seems to b based on the "Coulomb's law" (according to wikipedia), where resistance is inversely proportional to radius r.
+
+Equating this equation with the force per Rolling Resistance Coefficient and solving for b, gives:
+
+{{https://bitbucket.org/repo/pqBqye/images/2374035182-F5.png|F5.png}}
+
+Where:
+* b - The rolling resistance coefficient with dimension of length;
+* Crr - The dimensionless **rolling resistance coefficient** (or **coefficient of rolling friction (CRF)**);
+* r - Radius (m).
+
+Therefore, if a source gives rolling resistance coefficient (Crr) as a dimensionless coefficient, it can be converted to b (having units of length), by multiplying Crr by wheel radius r.
+
+The coefficient of rolling resistance for a slow rigid wheel on a perfectly elastic surface, not adjusted for velocity, can be calculated by:
+
+{{https://bitbucket.org/repo/pqBqye/images/2920640688-F14.png|F14.png}}
+
+Where:
+* z - The sinkage depth (m);
+* d - The diameter of the rigid wheel (m).
+
+
+==Rolling Coefficients Cars==
+
+The rolling coefficients for **pneumatic tyres on dry roads** can be calculated as:
+
+{{https://bitbucket.org/repo/pqBqye/images/1036636742-F15.png|F15.png}}
+Where:
+
+Crr - Rolling resistance coefficient;
+p - Tyre pressure (bar);
+v - Velocity (km/h).

@@ -1,0 +1,16 @@
+==Glossary ==
+
+|=Word|=Description|
+| CVS | It is a comma separated values file, which allows data to be saved in a table structured format.
+| FURPS+| FURPS is an acronym representing a model for classifying software quality attributes (functional and non-functional requirements): Functionality - Capability (Size & Generality of Feature Set), Reusability (Compatibility, Interoperability, Portability), Security (Safety & Exploitability) and others.
+| HTML | HyperText Markup Language, commonly used on the web.
+| Gnuplot file | It is a free, command-driven, interactive, function and data plotting program that allows students and scientists to visualize data as graphs. Although there are no official extensions, the most commonly used ones are .gpi, .gp and .gplt.
+|Node/Junction | Connection between two or more roads, so that the vehicles may move between roads according to the sections’ traffic flow directions. A node cannot hold vehicles.
+| Project | road network
+| Road network | a set of roads that interconnect in nodes/junctions. I can be depicted as a directed graph
+| Road | part of the road network with a name and one or more sections
+| Section | part of a road connecting two nodes/junction. It can be unidirectional or bidirectional. It can hold vehicles
+| Segment | a section is composed of one or more segments, i.e. road segments with uniform characteristics along the whole segment (e.g. slope)
+| DBMS | It is a DataBase Management System.
+| UI | User interface. The part of the program that interacts with the user.
+| Vehicles | Motorized vehicles such as cars or trucks. There are three main types of motorizations: combustion (diesel, gasoline, hydrogen, etc.); electric and hybrid (electric + combustion). Electric and hybrid vehicles can regenerate energy from braking in downward slopes.

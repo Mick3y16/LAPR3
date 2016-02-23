@@ -1,0 +1,77 @@
+= UC4: Edit Project =
+
+== Brief Format ==
+
+The user starts the process of editing a project's data. The system displays the opened project's information (name, description) and allows editing. The user changes the desired information of the project. The system allows the user to edit and/or add roads and vehicles to the project, if desired. The system requests the confirmation of the edited data. The user confirms. The system validates the whole project, changes its data and informs the user of the sucess of the operation.
+
+== SSD ==
+
+{{https://bitbucket.org/repo/pqBqye/images/3474882410-SSD%20UC4.png|SSD UC4.png}}
+
+== Complete Format ==
+
+=== Main actor ===
+* User
+
+=== Stakeholders and their interests ===
+* User: Ability to edit a project's data.
+
+=== Preconditions ===
+* -
+
+=== Postconditions ===
+* The edited project is stored in the system.
+
+=== Main Success Scenario (or Basic Flow ) ===
+
+# The user starts the process of editing a project's data.
+# The system displays the opened project's information (name, description) and allows editing.
+# The user changes the desired information of the project.
+# The system asks if the user wants to edit roads and vehicles.
+# The user confirms.
+# The system displays the list of roads and vehicles of the project.
+# The user edits and/or adds roads and vehicles of the project.
+# The system requests the confirmation of the edited data.
+# The user confirms.
+# The system validates the whole project, changes its data and informs the user of the sucess of the operation.
+
+=== Extensions ( or alternative flows ) ===
+
+* *a. The user cancels the edition of the project.
+ # The use case ends.
+
+* 2a. The system detects no project has been opened yet. 
+ # The system informs the user to the fact.
+ # The use case ends.
+
+* 5a. The user cancels the edition of roads and vehicles.
+ # The system informs the user to the fact.
+ # The use case continues from 10.
+
+* 9a. The user does not confirm the changes.
+ # The system informs the user to the fact.
+ # The system allows the user to edit the data again.
+
+* 10a. The new name of the project already exists in another project.
+ # The system informs the user to the fact.
+ # The system allows the user to edit the project's name.
+
+* 10b. The description of the project is invalid.
+ # The system informs the user to the fact.
+ # The system allows the user to edit the project's description.
+
+* 10c. The project does not contain any roads and/or vehicles.
+ # The system informs the user to the fact.
+ # The system allows the user to add roads and vehicles.
+
+=== Special requirements ===
+* -
+
+=== Technology and Data Variation List ===
+* -
+
+=== Frequency of Occurrence ===
+* -
+
+=== Open questions ===
+* -
